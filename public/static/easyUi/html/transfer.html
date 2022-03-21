@@ -1,0 +1,36 @@
+<!--
+ * @Author: your name
+ * @Date: 2022-03-16 14:19:29
+ * @LastEditTime: 2022-03-18 16:55:20
+ * @LastEditors: Please set LastEditors
+ * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+ * @FilePath: \ComponentLibrary\public\static\easyUi\html\transfer.html
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script type="text/javascript" src="../js/plugins/jquery-test.js"></script>
+<script type="text/javascript" src="../js/common/common.js"></script>
+<body>
+    <article>
+        <div class="transfer" id="transfer0">基本用法</div>
+        <div class="transfer" id="transfer1">标准穿梭框</div>
+        <div class="transfer" id="transfer2">可添加穿梭框</div>
+        <div class="transfer" id="transfer3">无搜索穿梭框</div>
+        <div class="transfer" id="transfer4">无搜索可添加的穿梭框</div>
+        <div class="transfer" id="transfer5">树形穿梭框</div>
+        <div class="transfer" id="transfer6">树形可添加的穿梭框</div>
+    </article>
+</body>
+<script>
+    show(window.location.search.split('=')[1],".transfer")
+    // var propId = window.location.search.split('=')[1]
+    // $('#' + propId).show().siblings('.transfer').hide()
+</script>
+
+</html>

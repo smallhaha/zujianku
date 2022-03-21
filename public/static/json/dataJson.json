@@ -1,0 +1,325 @@
+[
+    {
+        "id": 1000,
+        "typeTag": "transfer",
+        "title": "穿梭框Transfer",
+        "content": "两栏布局的多选组件，将元素从一栏即时移到另一栏。",
+        "child": [
+            {
+                "id": 10000,
+                "title": "基本用法",
+                "herf": "basic",
+                "cont": [
+                    "需要在多个可选项中进行多选时使用。",
+                    "选择一个或以上的选项后，点击对应的方向键，可以把选中的选项移到另一栏；",
+                    "双击选项，可以把选中的选项移动到另一栏；"
+                ],
+                "codeFlag": false,
+                "codeStyle": "/static/easyUi/html/transfer.html?id=transfer0",
+                "codeTagList": [
+                    {
+                        "key": 1100,
+                        "content": "展开代码",
+                        "flag": false,
+                        "type": "open",
+                        "defaultImg": "/static/image/icon/CodePutAway.svg",
+                        "clickImg": "/static/image/icon/CodePutAwayClick.svg"
+                    },
+                    {
+                        "key": 1101,
+                        "flag": false,
+                        "type": "Html",
+                        "content": "复制HTML",
+                        "defaultImg": "/static/image/icon/Html.svg",
+                        "clickImg": "/static/image/icon/HtmlClick.svg"
+                    },
+                    {
+                        "key": 1102,
+                        "flag": false,
+                        "type": "CSS",
+                        "content": "复制CSS",
+                        "defaultImg": "/static/image/icon/Css.svg",
+                        "clickImg": "/static/image/icon/CssClick.svg"
+                    },
+                    {
+                        "key": 1103,
+                        "flag": false,
+                        "type": "JS",
+                        "content": "复制JS",
+                        "defaultImg": "/static/image/icon/Js.svg",
+                        "clickImg": "/static/image/icon/JsClick.svg"
+                    }
+                ],
+                "codeShow": false
+            },
+            {
+                "id": 10001,
+                "title": "标准穿梭框",
+                "herf": "standard",
+                "cont": [],
+                "codeFlag": true,
+                "codeStyle": "/static/easyUi/html/transfer.html?id=transfer1",
+                "codeTagList": [
+                    {
+                        "flag": false,
+                        "key": 1104,
+                        "content": "展开代码",
+                        "type": "open",
+                        "defaultImg": "/static/image/icon/CodePutAway.svg",
+                        "clickImg": "/static/image/icon/CodePutAwayClick.svg"
+                    },
+                    {
+                        "flag": false,
+                        "key": 1105,
+                        "type": "Html",
+                        "content": "复制HTML",
+                        "defaultImg": "/static/image/icon/Html.svg",
+                        "clickImg": "/static/image/icon/HtmlClick.svg"
+                    },
+                    {
+                        "flag": false,
+                        "key": 1106,
+                        "type": "CSS",
+                        "content": "复制CSS",
+                        "defaultImg": "/static/image/icon/Css.svg",
+                        "clickImg": "/static/image/icon/CssClick.svg"
+                    },
+                    {
+                        "flag": false,
+                        "key": 1107,
+                        "type": "JS",
+                        "content": "复制JS",
+                        "defaultImg": "/static/image/icon/Js.svg",
+                        "clickImg": "/static/image/icon/JsClick.svg"
+                    }
+                ],
+                "codeShow": false
+            },
+            {
+                "id": 10002,
+                "title": "可添加穿梭框",
+                "herf": "addtransfer",
+                "cont": [],
+                "codeFlag": true,
+                "codeStyle": "/static/easyUi/html/transfer.html?id=transfer2",
+                "codeTagList": [
+                    {
+                        "flag": false,
+                        "key": 1108,
+                        "content": "展开代码",
+                        "type": "open",
+                        "defaultImg": "/static/image/icon/CodePutAway.svg",
+                        "clickImg": "/static/image/icon/CodePutAwayClick.svg"
+                    },
+                    {
+                        "flag": false,
+                        "key": 1109,
+                        "type": "Html",
+                        "content": "复制HTML",
+                        "defaultImg": "/static/image/icon/Html.svg",
+                        "clickImg": "/static/image/icon/HtmlClick.svg"
+                    },
+                    {
+                        "flag": false,
+                        "key": 1110,
+                        "type": "CSS",
+                        "content": "复制CSS",
+                        "defaultImg": "/static/image/icon/Css.svg",
+                        "clickImg": "/static/image/icon/CssClick.svg"
+                    },
+                    {
+                        "flag": false,
+                        "key": 1111,
+                        "type": "JS",
+                        "content": "复制JS",
+                        "defaultImg": "/static/image/icon/Js.svg",
+                        "clickImg": "/static/image/icon/JsClick.svg"
+                    }
+                ],
+                "codeShow": false
+            },
+            {
+                "id": 10003,
+                "title": "无搜索穿梭框",
+                "herf": "nosearch",
+                "cont": [],
+                "codeFlag": true,
+                "codeStyle": "/static/easyUi/html/transfer.html?id=transfer3",
+                "codeTagList": [
+                    {
+                        "flag": false,
+                        "key": 1112,
+                        "content": "展开代码",
+                        "type": "open",
+                        "defaultImg": "/static/image/icon/CodePutAway.svg",
+                        "clickImg": "/static/image/icon/CodePutAwayClick.svg"
+                    },
+                    {
+                        "flag": false,
+                        "key": 1113,
+                        "type": "Html",
+                        "content": "复制HTML",
+                        "defaultImg": "/static/image/icon/Html.svg",
+                        "clickImg": "/static/image/icon/HtmlClick.svg"
+                    },
+                    {
+                        "flag": false,
+                        "key": 1114,
+                        "type": "CSS",
+                        "content": "复制CSS",
+                        "defaultImg": "/static/image/icon/Css.svg",
+                        "clickImg": "/static/image/icon/CssClick.svg"
+                    },
+                    {
+                        "flag": false,
+                        "key": 1115,
+                        "type": "JS",
+                        "content": "复制JS",
+                        "defaultImg": "/static/image/icon/Js.svg",
+                        "clickImg": "/static/image/icon/JsClick.svg"
+                    }
+                ],
+                "codeShow": false
+            },
+            {
+                "id": 10004,
+                "title": "无搜索可添加的穿梭框",
+                "herf": "nosearchadd",
+                "cont": [],
+                "codeFlag": true,
+                "codeStyle": "/static/easyUi/html/transfer.html?id=transfer4",
+                "codeTagList": [
+                    {
+                        "flag": false
+                    },
+                    {
+                        "flag": false
+                    },
+                    {
+                        "flag": false
+                    },
+                    {
+                        "flag": false
+                    }
+                ],
+                "codeShow": false
+            },
+            {
+                "id": 10005,
+                "title": "树形穿梭框",
+                "herf": "treetransfer",
+                "cont": [],
+                "codeFlag": true,
+                "codeStyle": "/static/easyUi/html/transfer.html?id=transfer5",
+                "codeTagList": [
+                    {
+                        "flag": false
+                    },
+                    {
+                        "flag": false
+                    },
+                    {
+                        "flag": false
+                    },
+                    {
+                        "flag": false
+                    }
+                ],
+                "codeShow": false
+            },
+            {
+                "id": 10006,
+                "title": "树形可添加的穿梭框",
+                "herf": "addtree",
+                "cont": [],
+                "codeFlag": true,
+                "codeStyle": "/static/easyUi/html/transfer.html?id=transfer6",
+                "codeTagList": [
+                    {
+                        "flag": false
+                    },
+                    {
+                        "flag": false
+                    },
+                    {
+                        "flag": false
+                    },
+                    {
+                        "flag": false
+                    }
+                ],
+                "codeShow": false
+            }
+        ]
+    },
+    {
+        "id": 1001,
+        "typeTag": "input",
+        "title": "输入框",
+        "content": "基本表单组件，并在原生控件基础上进行了功能扩展，可以组合使用。",
+        "child": [
+            {
+                "id": 10010,
+                "title": "基本用法",
+                "herf": "basic",
+                "cont": [
+                    "需要在多个可选项中进行多选时使用。",
+                    "选择一个或以上的选项后，点击对应的方向键，可以把选中的选项移到另一栏；",
+                    "双击选项，可以把选中的选项移动到另一栏；"
+                ],
+                "codeFlag": true,
+                "codeStyle": "/static/easyUi/html/input.html",
+                "codeTagList": [
+                    {
+                        "flag": false
+                    },
+                    {
+                        "flag": false
+                    },
+                    {
+                        "flag": false
+                    },
+                    {
+                        "flag": false
+                    }
+                ],
+                "codeShow": false
+            }
+        ]
+    },
+    {
+        "id": 1002,
+        "typeTag": "select",
+        "title": "选择器",
+        "content": "当用户需要从一组同类数据中选择一个或多个时，可以使用下拉选择器，点击后选择对应项。",
+        "child": [
+            {
+                "id": 10020,
+                "title": "基本用法",
+                "herf": "basic",
+                "cont": [
+                    "需要在多个可选项中进行多选时使用。",
+                    "选择一个或以上的选项后，点击对应的方向键，可以把选中的选项移到另一栏；",
+                    "双击选项，可以把选中的选项移动到另一栏；"
+                ],
+                "codeFlag": true,
+                "codeStyle": "/static/easyUi/html/select.html",
+                "codeTagList": [
+                    {
+                        "flag": false
+                    },
+                    {
+                        "flag": false
+                    },
+                    {
+                        "flag": false
+                    },
+                    {
+                        "flag": false
+                    }
+                ],
+                "codeShow": false
+            }
+        ]
+    }
+]

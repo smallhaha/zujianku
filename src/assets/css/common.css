@@ -1,0 +1,189 @@
+/* 把我们所有标签的内外边距清零 */
+*{
+    padding: 0;
+    margin: 0;
+}
+/* 去掉li标签的小圆点 */
+li {
+    list-style: none;
+}
+img{
+    border: 0;
+    /* 取消图片底侧有空白间隙问题 */
+    vertical-align: middle;
+}
+.clearfix:after{
+    visibility: hidden;
+    clear: both;
+    display: block;
+    content: "";
+    height: 0;
+}
+.clearfix{
+    *zoom: 1;
+}
+
+.displayFlex_end{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.displayFlex_start{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.mode_cont{
+    padding: 40px 20px;
+}
+.article_title{
+    margin: 0px 0 12px;
+    font-weight: 500;
+    font-size: 32px;
+}
+.article_description{
+    font-size: 12px;
+    color: #333333;
+    letter-spacing: 0;
+    font-weight: 400;
+}
+.code_blok h2{
+    margin: 48px 0 12px;
+    font-weight: bold;
+    font-size: 16px;
+}
+.code_blok p{
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 25px;
+    font-weight: 400;
+}
+.cell_demo{
+    padding: 40px;
+    margin-top: 24px;
+    border: 1px solid #DBDEE2;
+}
+.Home_Nav .Home_Nan_title{
+    margin: 0 0 4px;
+    padding: 0 12px 0 40px;
+    color: #999999;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 55px; 
+}
+.cell_code{
+    margin-top: 12px;
+}
+.cell_code_operation{
+    display: flex;
+    justify-content: flex-end;
+}
+.cell_code_content{
+    margin-top: 10px;
+    overflow: hidden;
+    background-color: #FAFAFA;
+    transition: height 0.2s;
+    position: relative;
+}
+.cell_edition{
+    position: absolute;
+    top: 10px;
+    right: 0;
+    padding-right: 22px;
+    text-align: end;
+}
+.cell_code_icon{
+    margin-left: 16px;
+}
+.cell_code_icon img{
+    width: 18px;
+    height: 18px;
+}
+.cell_demo img{
+    width: 400px;
+    height: 300px;
+}
+.code_content{
+    padding: 0 20px 16px 16px;
+}
+.tab_cont{
+    padding: 0 20px;
+    max-height: 528px;
+    overflow-y: auto;    
+}
+
+.layout-demo .hljs{
+    background-color: transparent;
+}
+
+.showAlert {
+    animation: showFadeIn .3s;
+    -webkit-animation: showFadeIn .3s;
+    -moz-animation: showFadeIn .3s;
+    -ms-animation: showFadeIn .3s;
+    -o-animation: showFadeIn .3s
+}
+.hideAlert {
+    animation: hideFadeIn .3s;
+    -webkit-animation: hideFadeIn .3s;
+    -moz-animation: hideFadeIn .3s;
+    -ms-animation: hideFadeIn .3s;
+    -o-animation: hideFadeIn .3s;
+}
+
+
+@keyframes showFadeIn {
+    0% {
+        opacity: 0;
+        transform: scaleY(.9)
+    }
+
+    100% {
+        opacity: 1;
+        transform: scaleY(1)
+    }
+}
+
+@-webkit-keyframes showFadeIn {
+    0% {
+        opacity: 0;
+        -webkit-transform: scaleY(.9)
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: scaleY(1)
+    }
+}
+
+.img_all{
+    width: 18px;
+    height: 18px;
+    
+}
+.Html_img{
+    background: url('../image/icon/Html.svg') no-repeat;  
+    background-size: cover;  
+}
+.Html_img:hover{
+    background: url('../image/icon/HtmlClick.svg') no-repeat;
+    background-size: cover;
+}
+.Css_img{
+    background: url('../image/icon/Css.svg') no-repeat;
+    background-size: cover;
+}
+.Css_img:hover{
+    background: url('../image/icon/CssClick.svg') no-repeat;
+    background-size: cover;
+}
+.Js_img{
+    background: url('../image/icon/Js.svg') no-repeat;
+    background-size: cover;
+}
+.Js_img:hover{
+    background: url('../image/icon/JsClick.svg') no-repeat;
+    background-size: cover;
+}
+
+

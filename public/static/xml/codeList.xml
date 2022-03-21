@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transferCode>
+    <codeFragment name="basic" id="10000">
+        <code name="Html">
+            <a-layout-sider hide-trigger collapsible :collapsed="collapsed">
+                <div class="collapse_main">
+                  <div @click="onCollapse">
+                    <div class="collapse_right" v-if="collapsed">
+                      <IconLeft />
+                    </div>
+                    <div class="collapse" v-else>
+                      <IconRight />
+                    </div>
+                  </div>
+                </div>
+                <a-anchor :style="{ width: '200px' }">
+                  <a-anchor-link
+                    v-for="item in pageList.child"
+                    :key="item.herf"
+                    :href="'#' + item.herf"
+                    >{{ item.label }}</a-anchor-link
+                  >
+                </a-anchor>
+              </a-layout-sider>
+        </code>
+        <code name="CSS">
+            .HomeLay_demo :deep(.arco-layout-content) {
+                overflow-y: auto;
+              }
+              .HomeLay_demo .HomeLay_demo_left {
+                width: 240px;
+              }
+              .HomeLay_demo .HomeLay_demo_left :deep(.arco-layout-sider-light) {
+                border-right: 1px solid #dbdee2;
+                box-shadow: none;
+                position: fixed;
+                left: 0px;
+                top: 80px;
+              }
+            </code>
+        <code name='JS'>
+            var propId = window.location.search.split('=')[1]
+            $('#' + propId).show().siblings('.transfer').hide()
+        </code>
+    </codeFragment>
+    <codeFragment name="standard" id="10001">
+        <code name="Html">
+            <a-layout-sider hide-trigger collapsible :collapsed="collapsed">
+                <div class="collapse_main">
+                  <div @click="onCollapse">
+                    <div class="collapse_right" v-if="collapsed">
+                      <IconLeft />
+                    </div>
+                    <div class="collapse" v-else>
+                      <IconRight />
+                    </div>
+                  </div>
+                </div>
+                <a-anchor :style="{ width: '200px' }">
+                  <a-anchor-link
+                    v-for="item in pageList.child"
+                    :key="item.herf"
+                    :href="'#' + item.herf"
+                    >{{ item.label }}</a-anchor-link
+                  >
+                </a-anchor>
+              </a-layout-sider>
+        </code>
+        <code name="CSS">
+            .HomeLay_demo :deep(.arco-layout-content) {
+                overflow-y: auto;
+              }
+              .HomeLay_demo .HomeLay_demo_left {
+                width: 240px;
+              }
+              .HomeLay_demo .HomeLay_demo_left :deep(.arco-layout-sider-light) {
+                border-right: 1px solid #dbdee2;
+                box-shadow: none;
+                position: fixed;
+                left: 0px;
+                top: 80px;
+              }
+            </code>
+        <code name='JS'>
+            var propId = window.location.search.split('=')[1]
+            $('#' + propId).show().siblings('.transfer').hide()
+        </code>
+    </codeFragment>
+    <codeFragment name="addtransfer" id="10002">
+        <code name="Html">
+            <a-layout-sider hide-trigger collapsible :collapsed="collapsed">
+                <div class="collapse_main">
+                  <div @click="onCollapse">
+                    <div class="collapse_right" v-if="collapsed">
+                      <IconLeft />
+                    </div>
+                    <div class="collapse" v-else>
+                      <IconRight />
+                    </div>
+                  </div>
+                </div>
+                <a-anchor :style="{ width: '200px' }">
+                  <a-anchor-link
+                    v-for="item in pageList.child"
+                    :key="item.herf"
+                    :href="'#' + item.herf"
+                    >{{ item.label }}</a-anchor-link
+                  >
+                </a-anchor>
+              </a-layout-sider>
+        </code>
+        <code name="CSS">
+            .HomeLay_demo :deep(.arco-layout-content) {
+                overflow-y: auto;
+              }
+              .HomeLay_demo .HomeLay_demo_left {
+                width: 240px;
+              }
+              .HomeLay_demo .HomeLay_demo_left :deep(.arco-layout-sider-light) {
+                border-right: 1px solid #dbdee2;
+                box-shadow: none;
+                position: fixed;
+                left: 0px;
+                top: 80px;
+              }
+            </code>
+        <code name='JS'>
+            var propId = window.location.search.split('=')[1]
+            $('#' + propId).show().siblings('.transfer').hide()
+        </code>
+    </codeFragment>
+    <codeFragment name="nosearch" id="10003">
+        <code name="Html">
+            <a-layout-sider hide-trigger collapsible :collapsed="collapsed">
+                <div class="collapse_main">
+                  <div @click="onCollapse">
+                    <div class="collapse_right" v-if="collapsed">
+                      <IconLeft />
+                    </div>
+                    <div class="collapse" v-else>
+                      <IconRight />
+                    </div>
+                  </div>
+                </div>
+                <a-anchor :style="{ width: '200px' }">
+                  <a-anchor-link
+                    v-for="item in pageList.child"
+                    :key="item.herf"
+                    :href="'#' + item.herf"
+                    >{{ item.label }}</a-anchor-link
+                  >
+                </a-anchor>
+              </a-layout-sider>
+        </code>
+        <code name="CSS">
+            .HomeLay_demo :deep(.arco-layout-content) {
+                overflow-y: auto;
+              }
+              .HomeLay_demo .HomeLay_demo_left {
+                width: 240px;
+              }
+              .HomeLay_demo .HomeLay_demo_left :deep(.arco-layout-sider-light) {
+                border-right: 1px solid #dbdee2;
+                box-shadow: none;
+                position: fixed;
+                left: 0px;
+                top: 80px;
+              }
+            </code>
+        <code name='JS'>
+            var propId = window.location.search.split('=')[1]
+            $('#' + propId).show().siblings('.transfer').hide()
+        </code>
+    </codeFragment>
+    <codeFragment name="nosearchadd" id="10004">
+        <code name="Html">
+            <a-layout-sider hide-trigger collapsible :collapsed="collapsed">
+                <div class="collapse_main">
+                  <div @click="onCollapse">
+                    <div class="collapse_right" v-if="collapsed">
+                      <IconLeft />
+                    </div>
+                    <div class="collapse" v-else>
+                      <IconRight />
+                    </div>
+                  </div>
+                </div>
+                <a-anchor :style="{ width: '200px' }">
+                  <a-anchor-link
+                    v-for="item in pageList.child"
+                    :key="item.herf"
+                    :href="'#' + item.herf"
+                    >{{ item.label }}</a-anchor-link
+                  >
+                </a-anchor>
+              </a-layout-sider>
+        </code>
+        <code name="CSS">
+            .HomeLay_demo :deep(.arco-layout-content) {
+                overflow-y: auto;
+              }
+              .HomeLay_demo .HomeLay_demo_left {
+                width: 240px;
+              }
+              .HomeLay_demo .HomeLay_demo_left :deep(.arco-layout-sider-light) {
+                border-right: 1px solid #dbdee2;
+                box-shadow: none;
+                position: fixed;
+                left: 0px;
+                top: 80px;
+              }
+            </code>
+        <code name='JS'>
+            var propId = window.location.search.split('=')[1]
+            $('#' + propId).show().siblings('.transfer').hide()
+        </code>
+    </codeFragment>
+    <codeFragment name="treetransfer" id="10005">
+        <code name="Html">
+            <a-layout-sider hide-trigger collapsible :collapsed="collapsed">
+                <div class="collapse_main">
+                  <div @click="onCollapse">
+                    <div class="collapse_right" v-if="collapsed">
+                      <IconLeft />
+                    </div>
+                    <div class="collapse" v-else>
+                      <IconRight />
+                    </div>
+                  </div>
+                </div>
+                <a-anchor :style="{ width: '200px' }">
+                  <a-anchor-link
+                    v-for="item in pageList.child"
+                    :key="item.herf"
+                    :href="'#' + item.herf"
+                    >{{ item.label }}</a-anchor-link
+                  >
+                </a-anchor>
+              </a-layout-sider>
+        </code>
+        <code name="CSS">
+            .HomeLay_demo :deep(.arco-layout-content) {
+                overflow-y: auto;
+              }
+              .HomeLay_demo .HomeLay_demo_left {
+                width: 240px;
+              }
+              .HomeLay_demo .HomeLay_demo_left :deep(.arco-layout-sider-light) {
+                border-right: 1px solid #dbdee2;
+                box-shadow: none;
+                position: fixed;
+                left: 0px;
+                top: 80px;
+              }
+            </code>
+        <code name='JS'>
+            var propId = window.location.search.split('=')[1]
+            $('#' + propId).show().siblings('.transfer').hide()
+        </code>
+    </codeFragment>
+    <codeFragment name="addtree" id="10006">
+        <code name="Html">
+            <a-layout-sider hide-trigger collapsible :collapsed="collapsed">
+                <div class="collapse_main">
+                  <div @click="onCollapse">
+                    <div class="collapse_right" v-if="collapsed">
+                      <IconLeft />
+                    </div>
+                    <div class="collapse" v-else>
+                      <IconRight />
+                    </div>
+                  </div>
+                </div>
+                <a-anchor :style="{ width: '200px' }">
+                  <a-anchor-link
+                    v-for="item in pageList.child"
+                    :key="item.herf"
+                    :href="'#' + item.herf"
+                    >{{ item.label }}</a-anchor-link
+                  >
+                </a-anchor>
+              </a-layout-sider>
+        </code>
+        <code name="CSS">
+            .HomeLay_demo :deep(.arco-layout-content) {
+                overflow-y: auto;
+              }
+              .HomeLay_demo .HomeLay_demo_left {
+                width: 240px;
+              }
+              .HomeLay_demo .HomeLay_demo_left :deep(.arco-layout-sider-light) {
+                border-right: 1px solid #dbdee2;
+                box-shadow: none;
+                position: fixed;
+                left: 0px;
+                top: 80px;
+              }
+            </code>
+        <code name='JS'>
+            var propId = window.location.search.split('=')[1]
+            $('#' + propId).show().siblings('.transfer').hide()
+        </code>
+    </codeFragment>
+</transferCode>
+<inputCode>
+    <codeFragment name="basic"  id="10010">
+        <code name="Html">
+            <a-layout-sider hide-trigger collapsible :collapsed="collapsed">
+                <div class="collapse_main">
+                  <div @click="onCollapse">
+                    <div class="collapse_right" v-if="collapsed">
+                      <IconLeft />
+                    </div>
+                    <div class="collapse" v-else>
+                      <IconRight />
+                    </div>
+                  </div>
+                </div>
+                <a-anchor :style="{ width: '200px' }">
+                  <a-anchor-link
+                    v-for="item in pageList.child"
+                    :key="item.herf"
+                    :href="'#' + item.herf"
+                    >{{ item.label }}</a-anchor-link
+                  >
+                </a-anchor>
+              </a-layout-sider>
+        </code>
+        <code name="CSS">
+            .HomeLay_demo :deep(.arco-layout-content) {
+                overflow-y: auto;
+              }
+              .HomeLay_demo .HomeLay_demo_left {
+                width: 240px;
+              }
+              .HomeLay_demo .HomeLay_demo_left :deep(.arco-layout-sider-light) {
+                border-right: 1px solid #dbdee2;
+                box-shadow: none;
+                position: fixed;
+                left: 0px;
+                top: 80px;
+              }
+            </code>
+        <code name='JS'>
+            var propId = window.location.search.split('=')[1]
+            $('#' + propId).show().siblings('.transfer').hide()
+        </code>
+    </codeFragment>
+</inputCode>
+<selectCode>
+    <codeFragment name="basic" id="10020">
+        <code name="Html">
+            <a-layout-sider hide-trigger collapsible :collapsed="collapsed">
+                <div class="collapse_main">
+                  <div @click="onCollapse">
+                    <div class="collapse_right" v-if="collapsed">
+                      <IconLeft />
+                    </div>
+                    <div class="collapse" v-else>
+                      <IconRight />
+                    </div>
+                  </div>
+                </div>
+                <a-anchor :style="{ width: '200px' }">
+                  <a-anchor-link
+                    v-for="item in pageList.child"
+                    :key="item.herf"
+                    :href="'#' + item.herf"
+                    >{{ item.label }}</a-anchor-link
+                  >
+                </a-anchor>
+              </a-layout-sider>
+        </code>
+        <code name="CSS">
+            .HomeLay_demo :deep(.arco-layout-content) {
+                overflow-y: auto;
+              }
+              .HomeLay_demo .HomeLay_demo_left {
+                width: 240px;
+              }
+              .HomeLay_demo .HomeLay_demo_left :deep(.arco-layout-sider-light) {
+                border-right: 1px solid #dbdee2;
+                box-shadow: none;
+                position: fixed;
+                left: 0px;
+                top: 80px;
+              }
+            </code>
+        <code name='JS'>
+            var propId = window.location.search.split('=')[1]
+            $('#' + propId).show().siblings('.transfer').hide()
+        </code>
+    </codeFragment>
+</selectCode>
